@@ -191,7 +191,7 @@ This workflow ensures:
 ## Directory Structure
 
 After setup, your project will look like:
-
+```bash
    project-root-directory/
    ├── .git/                     # Parent repository `.git` directory
    ├── .gitignore                # Parent repository ignore file, updated with `pavlovia-gitlab/`
@@ -210,6 +210,7 @@ After setup, your project will look like:
    ├── report/                   # Markdown files and reporting
    ├── src/                      # Source code for data, figs, funcions, etc. References
    └── README.md
+```
 
 ## Troubleshooting
 
