@@ -104,7 +104,8 @@ Parameters:
    pavlovia_clone_repo(
      user_name = "jsmith",
      repo_name = "stroop-task-2024"
-   )```
+   )
+   ```
 ```
 
 ## Ongoing Data Management
@@ -171,7 +172,7 @@ pavlovia_copy_and_push_data()
 
 # 3. Your data processing workflow continued...
 
-  See pavlovia-workflow-tools/pavlovia-workflow-example.R
+See `pavlovia-workflow-tools/pavlovia-workflow-example.R`
 ```
 
 This workflow ensures:
@@ -194,9 +195,8 @@ After setup, your project will look like:
    ├── .git/                     # Parent repository `.git` directory
    ├── .gitignore                # Parent repository ignore file, updated with `pavlovia-gitlab/`
    ├── pavlovia-gitlab/          # Cloned repos (ignored by git)
-   │   └── stroop-task-2024/
-   │       ├── data/
-   │       └── stroop-experiment.psyexp
+   │   ├── data/
+   │   └── stroop-experiment.psyexp
    ├── data/                     # Main data directory
    │   └── raw/                  # Raw data sub-directory
    │       └── pavlovia-gitlab/  # Copied version of Pavlovia.org experiment data
@@ -207,7 +207,7 @@ After setup, your project will look like:
 
 ## Troubleshooting
 
-Credentials not found:
+Gitlab Credentials not found:
 
 Run `gitcreds::gitcreds_get()` to verify your token is stored. If missing, re-run `pavlovia_create_and_store_gitlab_token()`.
 
