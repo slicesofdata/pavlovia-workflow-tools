@@ -98,10 +98,9 @@ Parameters:
    pavlovia_create_and_store_gitlab_token()
    
    # 2. Prepare directory structure
-   pavlovia_setup_repo_directory()`
+   pavlovia_setup_repo_directory()
    
    # 3. Clone specific experiment
-   
    pavlovia_clone_repo(
      user_name = "jsmith",
      repo_name = "stroop-task-2024"
