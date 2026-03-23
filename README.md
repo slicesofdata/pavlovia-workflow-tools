@@ -93,19 +93,19 @@ Parameters:
 
 ## Complete Workflow Example
 
+```bash
    # 1. Setup authentication (one-time per machine, reauthenticate token as needed)
-   `pavlovia_create_and_store_gitlab_token()`
+   pavlovia_create_and_store_gitlab_token()
    
    # 2. Prepare directory structure
-   `pavlovia_setup_repo_directory()` 
+   pavlovia_setup_repo_directory()`
    
    # 3. Clone specific experiment
-   ```
+   
    pavlovia_clone_repo(
      user_name = "jsmith",
      repo_name = "stroop-task-2024"
    )
-   ```
 ```
 
 ## Ongoing Data Management
@@ -173,7 +173,7 @@ pavlovia_copy_and_push_data()
 # 3. Your data processing workflow continued...
 ```
 
-For an example of data-processing workflow, see `pavlovia-workflow-tools/pavlovia-workflow-example.R`
+Note: For an example of data-processing workflow, see `pavlovia-workflow-tools/pavlovia-workflow-example.R`
 
 
 This workflow ensures:
