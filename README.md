@@ -171,9 +171,10 @@ pavlovia_pull_repo()
 pavlovia_copy_and_push_data()
 
 # 3. Your data processing workflow continued...
-
-See ```pavlovia-workflow-tools/pavlovia-workflow-example.R```
 ```
+
+For an example of data-processing workflow, see `pavlovia-workflow-tools/pavlovia-workflow-example.R`
+
 
 This workflow ensures:
 - You have the latest participant data from your Pavlovia/Gitlab experiment repository
