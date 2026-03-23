@@ -172,7 +172,7 @@ pavlovia_copy_and_push_data()
 
 # 3. Your data processing workflow continued...
 
-See `pavlovia-workflow-tools/pavlovia-workflow-example.R`
+See ```pavlovia-workflow-tools/pavlovia-workflow-example.R```
 ```
 
 This workflow ensures:
