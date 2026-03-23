@@ -200,9 +200,14 @@ After setup, your project will look like:
    ├── data/                     # Main data directory
    │   └── raw/                  # Raw data sub-directory
    │       └── pavlovia-gitlab/  # Copied version of Pavlovia.org experiment data
-   ├── pavlovia-workflow-tools/   # Configuration functions
+   ├── docs/                     # Documentation and dictionaries
+   ├── figs/                     # Saved plots
+   ├── pavlovia-workflow-tools/  # Configuration functions
    │   ├── pavlovia-workflow-functions.R
    │   └── pavlovia-workflow-example.R
+   ├── refs/                     # References
+   ├── report/                   # Markdown files and reporting
+   ├── src/                      # Source code for data, figs, funcions, etc. References
    └── README.md
 
 ## Troubleshooting
